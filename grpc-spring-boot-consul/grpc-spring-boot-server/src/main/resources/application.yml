@@ -1,0 +1,24 @@
+server:
+  port: 9081
+grpc:
+  port : 7565
+
+logging:
+  level:
+    org.exampledriven: DEBUG
+
+
+spring:
+  profiles: default
+  cloud:
+    consul:
+      host: 192.168.120.14
+      port: 8500
+      discovery:
+        prefer-ip-address: true
+        tags: grpc.port=7565
+---
+
+spring:
+  application:
+    name: grpc-server

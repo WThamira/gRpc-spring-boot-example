@@ -1,0 +1,26 @@
+server:
+  port: 9081
+grpc:
+  port : 7565
+
+logging:
+  level:
+    org.exampledriven: DEBUG
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    metadataMap:
+      grpc.port: 7565
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+spring:
+  application:
+    name: grpc-server
