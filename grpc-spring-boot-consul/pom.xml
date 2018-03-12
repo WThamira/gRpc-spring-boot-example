@@ -7,7 +7,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Spring grpc example aggregator</name>
-
     <modules>
 		<module>grpc-spring-boot-client</module>
 		<module>grpc-spring-boot-server</module>
