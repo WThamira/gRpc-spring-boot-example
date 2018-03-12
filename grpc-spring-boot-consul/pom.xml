@@ -11,5 +11,4 @@
 		<module>grpc-spring-boot-client</module>
 		<module>grpc-spring-boot-server</module>
     </modules>
-
 </project>
