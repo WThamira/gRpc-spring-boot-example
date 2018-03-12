@@ -6,7 +6,6 @@
 	<artifactId>grpc-spring-boot-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
 	<name>grpc-spring-boot-client</name>
 	<description>grpc-spring-boot-client</description>
 
