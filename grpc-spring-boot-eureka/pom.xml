@@ -12,5 +12,4 @@
 		<module>grpc-spring-boot-server</module>
     <module>eureka-server</module>
     </modules>
-
 </project>
