@@ -56,7 +56,6 @@
 			<artifactId>grpc-netty</artifactId>
 			<version>1.0.1</version>
 		</dependency>
-
 		<!-- utils -->
 
 		<dependency>
