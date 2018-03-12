@@ -77,7 +77,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 	<build>
 		<extensions>
 			<extension>
